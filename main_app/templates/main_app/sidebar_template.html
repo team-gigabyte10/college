@@ -52,7 +52,7 @@
                     <a href="#" class="nav-link">
                         <i class="nav-icon fas fa-bookmark"></i>
                         <p>
-                            Course
+                            Class
                             <i class="fas fa-angle-left right"></i>
                         </p>
                     </a>
@@ -63,7 +63,7 @@
                                 class="nav-link  {% if add_course == request.path %} active {% endif %}">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>
-                                    Add Course
+                                    Add Class
 
                                 </p>
                             </a>
@@ -75,7 +75,7 @@
                                 class="nav-link  {% if edit_course == request.path or manage_course == request.path %} active {% endif %}">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>
-                                    Manage Course
+                                    Manage Class
 
                                 </p>
                             </a>
@@ -169,7 +169,7 @@
                     <a href="{{add_staff}}" class="nav-link {% if add_staff == request.path %} active {% endif %}">
                         <i class="nav-icon fas fa-user-plus"></i>
                         <p>
-                            Add Staff
+                            Add Teacher
 
                         </p>
                     </a>
@@ -182,7 +182,7 @@
                         class="nav-link {% if manage_staff == request.path or request.path == edit_staff %} active {% endif %}">
                         <i class="nav-icon fas fa-th"></i>
                         <p>
-                            Manage Staff
+                            Manage Teacher
 
                         </p>
                     </a>
@@ -217,7 +217,7 @@
                         class="nav-link {% if admin_notify_staff == request.path %} active {% endif %}">
                         <i class="nav-icon fas fa-bullhorn"></i>
                         <p>
-                            Notify Staff
+                            Notify Teacher
 
                         </p>
                     </a>
@@ -265,7 +265,7 @@
                         class="nav-link   {% if staff_feedback_message == request.path %} active {% endif %}">
                         <i class="nav-icon fas fa-comment"></i>
                         <p>
-                            Staff Feedback
+                            Teacher Feedback
 
                         </p>
                     </a>
@@ -277,7 +277,7 @@
                         class="nav-link  {% if view_staff_leave == request.path %} active {% endif %}">
                         <i class="nav-icon fas fa-check-double"></i>
                         <p>
-                            Staff Leave
+                            Teacher Leave
 
                         </p>
                     </a>
